@@ -1,0 +1,104 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+section{
+  display: flex;
+  justify-content: center;
+  margin: 5% 10%;
+  height: 400px;
+}
+h1{
+  font-family: Georgia;
+  font-size: 50px;
+}
+h2{
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: 600;
+}
+p{
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.headline{
+   text-align: center;
+   font-size: 40px;
+}
+.intro{
+  width: 50%;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.intro-title{
+  border-image: linear-gradient(5deg,rgb(68, 0, 255),rgb(183, 0, 255));
+  border-left: 4px solid;
+  border-image-slice: 1;
+  padding-left: 20px;
+  margin-bottom: -20px;
+  border-radius: 3px;
+}
+.pro-pic{
+  width: 50%;
+}
+.pro-pic img{
+  width: auto;
+  height: 100%;
+  padding-left: 20%;
+}
+#spred-item{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0% 10%;
+}
+.content{
+  padding: 20px 30px;
+  margin: 0 30px;
+  border-radius: 30px;
+  box-shadow: 4px 4px 8px gray;
+  height: fit-content;
+  width: 300px;
+}
+.content img{
+  width: 100px;
+  height: 100px;
+}
+#content1{
+  background-color: lightcyan;
+}
+#content2{
+  background-color: rgba(245, 235, 222, 0.986);
+}
+#content3{
+  background-color: lightyellow;
+}
+
+button{
+  text-decoration: none;
+  background-image: linear-gradient(145deg,#f713e7, #450135);
+  color: white;
+  font-size: 12px;
+  display: inline-block;
+  padding: 10px 35px;
+  border-radius: 8px;
+  font-weight: 800;
+  border: none;
+}
+button:hover{
+  background: black;
+}
+.highlight-text{
+  color:#570043;
+}
+.footer-part{
+  text-align: center;
+  color: seashell;
+  background-color: black;
+  padding: 30px 0;
+}
+
+.footer-head{
+  font-size: 35px;
+  font-family: 'Moon Dance', cursive;
+}
