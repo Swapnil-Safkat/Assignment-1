@@ -113,12 +113,13 @@ p{
   border-radius: 8px;
   font-weight: 800;
   border: none;
+  margin: 5px 0px;
 }
 .button-style:hover {
   background: black;
 }
 .highlight-text{
-  color:#570043;
+  color:#7c0560;
 }
 .footer{
   text-align: center;
